@@ -13,8 +13,6 @@ body {
 header {
     width: 100%;
     height: 50px;
-    position: fixed;
-
 }
 
 .buttons {
@@ -30,3 +28,32 @@ header {
     color: white;
 }
 
+.members {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mike img {
+    width: 200px;
+    height: auto;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.mike {
+    position: relative;
+}
+
+.mike span {
+    color: white;
+    position: absolute;
+    display: block;
+    bottom: 15px;
+    left: 5px;
+    background-color: rgba(128,128,128,0.7);
+    padding: 5px;
+    border-radius: 7px;
+}
